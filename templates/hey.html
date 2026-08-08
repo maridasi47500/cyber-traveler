@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue dans cyber star traveler
+{% endblock %}
+{% block content %}
+<h1># cyber-traveler</h1>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : tu es un cyber traveler avec de slunettes de soleil comme une star.
+tu regardes les bateaux /avion qui arrivent/partent.
+Tu gères tes données/mot de passe/comptes/conversations/appareil
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
+<a href="/add_one_user"> add one user</a><a href="/add_one_country"> add one country</a><a href="/add_one_data"> add one data</a><a href="/add_one_device"> add one device</a><a href="/add_one_userhasdevice"> add one userhasdevice</a><a href="/add_one_airport"> add one airport</a><a href="/add_one_city"> add one city</a><a href="/add_one_userflights"> add one userflights</a><a href="/add_one_airline_company"> add one airline_company</a><a href="/add_one_conversations"> add one conversations</a>
