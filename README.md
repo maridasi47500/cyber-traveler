@@ -7,3 +7,14 @@ cyber star, data, devices,password, data, conversations, digital identity
 - te coiffer/te laver etc
 - manger quelque hcose
 - unusual actions : faire une liste d'appareils, de mot de passe, de données de conversations
+=>
+["Trevor Dietrich",
+ "Gabrielle Bode",
+ "Newton Schmidt",
+ "Denisha Klein",
+ "Anisha Schoen",
+ "Rona Adams",
+ "Desmond Block",
+ "Lilliana Herzog",
+ "Arlyne Wintheiser",
+ "Lon Bergnaum"]
